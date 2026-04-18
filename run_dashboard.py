@@ -3,6 +3,7 @@ Launch script for real-time trading dashboard
 """
 
 import sys
+import os
 import json
 from pathlib import Path
 from dashboard_realtime import RealtimeDashboard
@@ -33,7 +34,8 @@ def main():
     print("🚀 啟動交易機器人即時監控面板...")
 
     config = load_config()
-    port = config['dashboard']['port']
+    port = int(os.environ.get('PORT', config['dashboard']['port']))
+    host = config['dashboard'].get('host', '0.0.0.0')
 
     print("📊 初始化組件...")
     client = BinanceClient(testnet=True)
@@ -48,12 +50,13 @@ def main():
         alerting_system=alerting_system,
         strategy_engine=strategy_engine,
         binance_client=client,
-        port=port
+        port=port,
+        host=host
     )
 
     print(f"\n✅ 儀表板已啟動！")
     print(f"📱 訪問地址: http://localhost:{port}")
-    print(f"🌍 網絡訪問: http://0.0.0.0:{port}")
+    print(f"🌍 網絡訪問: http://{host}:{port}")
     print(f"\n💡 功能特性:")
     print(f"   • WebSocket 即時更新 (每2秒)")
     print(f"   • 即時盈虧曲線圖表")
