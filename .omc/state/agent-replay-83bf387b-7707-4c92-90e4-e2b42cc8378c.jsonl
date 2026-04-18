@@ -1,3 +1,9 @@
 {"t":0,"agent":"a07ac43","agent_type":"monitoring-dev","event":"agent_stop","success":true}
 {"t":0,"agent":"aeb7b92","agent_type":"monitoring-dev","event":"agent_start","parent_mode":"none"}
 {"t":0,"agent":"a0664bc","agent_type":"strategy-dev","event":"agent_stop","success":true}
+{"t":0,"agent":"aeb7b92","agent_type":"monitoring-dev","event":"agent_stop","success":true,"duration_ms":25301}
+{"t":0,"agent":"a224ca6","agent_type":"monitoring-dev","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a224ca6","agent_type":"monitoring-dev","event":"agent_stop","success":true,"duration_ms":80081}
+{"t":0,"agent":"af6e4fe","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a69cad0","agent_type":"web-dev","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"af221cf","agent_type":"telegram-dev","event":"agent_start","parent_mode":"none"}
