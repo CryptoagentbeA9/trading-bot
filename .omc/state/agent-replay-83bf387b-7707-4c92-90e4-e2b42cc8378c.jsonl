@@ -1,0 +1,3 @@
+{"t":0,"agent":"a07ac43","agent_type":"monitoring-dev","event":"agent_stop","success":true}
+{"t":0,"agent":"aeb7b92","agent_type":"monitoring-dev","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a0664bc","agent_type":"strategy-dev","event":"agent_stop","success":true}

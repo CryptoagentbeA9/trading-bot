@@ -1,0 +1,74 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+test_logs/
+
+# Data and metrics
+*.db
+*.sqlite
+*.sqlite3
+test_metrics/
+metrics/
+data/
+
+# Trading data
+trades/
+positions/
+*.json
+!posting_config.py
+!strategy_config.py
+
+# Screenshots and images
+screenshots/
+images/
+*.png
+*.jpg
+*.jpeg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Selenium
+chromedriver
+geckodriver
+*.exe
