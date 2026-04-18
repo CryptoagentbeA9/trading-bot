@@ -7,3 +7,7 @@
 {"t":0,"agent":"af6e4fe","agent_type":"unknown","event":"agent_stop","success":true}
 {"t":0,"agent":"a69cad0","agent_type":"web-dev","event":"agent_start","parent_mode":"none"}
 {"t":0,"agent":"af221cf","agent_type":"telegram-dev","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"af221cf","agent_type":"telegram-dev","event":"agent_stop","success":true,"duration_ms":183316}
+{"t":0,"agent":"a69cad0","agent_type":"web-dev","event":"agent_stop","success":true,"duration_ms":389391}
+{"t":0,"agent":"adddb51","agent_type":"web-dev","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"adddb51","agent_type":"web-dev","event":"agent_stop","success":true,"duration_ms":12017}
